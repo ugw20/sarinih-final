@@ -1,0 +1,59 @@
+/* Reset styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+
+/* bagian Konfirmasi masukkan */
+.confirmation-container {
+  display: flex;
+  font-family: 'Montserrat';
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: white;
+}
+
+.confirmation-content {
+  background-color: #F8EADF;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.confirmation-content h2 {
+  font-size: 28px;
+  color: #F58706;
+  margin-bottom: 50px;
+}
+
+.confirmation-content p {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 50px;
+}
+
+.back-home-btn {
+  background-color: #F58706;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.back-home-btn:hover {
+  background-color: #db6e06;
+}
+

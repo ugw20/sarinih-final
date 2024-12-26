@@ -1,0 +1,212 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+}
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+  background-color: #1a1a1a;
+  padding: 40px;
+  transition: top 0.75s ease;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul li {
+  margin: 0 70px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: orange;
+}
+
+.navbar ul li a.active {
+  color: #F58706;
+}
+
+/* Styling untuk tombol login */
+.navbar ul .login a {
+  background-color: #F58706;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+.navbar ul .login a:hover {
+  background-color: rgb(173, 113, 2);
+  color: black;
+}
+
+/* General Styles */
+h1, h2, h3 {
+  margin: 0;
+}
+
+.reservation-section {
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.section-title {
+  color: #000000;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat';
+}
+
+.main-title {
+  font-family: 'Montserrat';
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  max-width: 90%; /* Membatasi lebar */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Reservation Container */
+.reservation-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.reservation-image {
+  width: 473px;
+  height: 500px;
+  margin-top: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Form Section */
+.reservation-form {
+  max-width: 900px;
+  text-align: left;
+  min-height: 500px; /* Menambahkan tinggi minimal pada form */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.line1{
+  display: block; 
+  width: 200px;
+  border: 1px solid rgba(173, 94, 0, 1);
+  margin: 5px auto; 
+}
+
+.form-title {
+  color: #000000;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat';
+}
+
+.line2{
+  display: block; 
+  width: 180px;
+  border: 1px solid rgba(173, 94, 0, 1);
+  margin: 5px auto; 
+  margin-left: 0;
+}
+
+.form-subtitle {
+  font-family: 'Monserrat';
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.form-description {
+  font-family: 'Monserrat';
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+form .form-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center; /* Pastikan elemen input sejajar vertikal */
+}
+
+form .form-group input {
+  width: 100%;
+  padding: 12px; /* Menambah padding untuk meningkatkan tinggi input */
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 50px; /* Menetapkan tinggi tetap pada input */
+}
+
+button {
+  font-family: 'Montserrat';
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #F58706;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+.line3{
+  display: block; 
+  width: 104px;
+  border: 1px solid rgba(173, 94, 0, 1);
+  margin: 5px auto; 
+}
+
+.gallery-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+.gallery-container img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+.gallery-section h2 {
+  color: #000000;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-family: 'Montserrat';
+}

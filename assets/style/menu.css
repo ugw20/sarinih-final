@@ -1,0 +1,156 @@
+/* Reset styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Styling untuk tombol login */
+  .navbar ul .login a {
+    background-color: #F58706;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar ul .login a:hover {
+    background-color: rgb(173, 113, 2);
+    color: black;
+  }
+  
+  /* Menu Header Styling */
+  .menu-section {
+    text-align: center;
+  }
+  
+  .menu-header {
+    text-align: center;
+    margin-top: 70px;
+  }
+  
+  .line1 {
+    display: block; /* Membuat garis berada di atas dan di bawah teks */
+    width: 80px;
+    border: 1px solid rgba(173, 94, 0, 1);
+    margin: 10px auto; /* Untuk memberikan jarak antar elemen */
+  }
+  
+  .menu-title {
+    font-size: 18px;
+    display: block; /* Memastikan elemen ini blok agar garis bisa berada di atas dan bawah */
+    margin: 10px 0;
+  }
+  
+  .menu-section h2 {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    margin-top: 30px;
+  }
+  
+  /* Menu Container */
+  .menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+    white-space: nowrap;
+    padding: 50px;
+    margin: 0 auto;
+    gap: 25px;
+    max-width: 1200px;
+  }
+  
+  .menu-item {
+    background-color: white;
+    display: inline-block;
+    width: 90%; 
+    border-radius: 10px;
+    flex-shrink: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 25px;
+  }
+  
+  .menu-item:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); /* Bayangan lebih kuat saat hover */
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: 77%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+  
+  .menu-item-content {
+    padding: 10px;
+  }
+  
+  .h3-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .menu-item .price {
+    color: #d48700;
+  }
+  
+  /* Rating Order */
+  .rating-order{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Menempatkan elemen di sisi kiri dan kanan */
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  .rating {
+      display: flex;
+      align-items: center;
+    }
+    
+    .star {
+      cursor: pointer;
+      color: lightgray; /* Bintang kosong */
+      font-size: 25px;
+      transition: color 0.3s;
+    }
+    
+    .star:hover,
+    .star.selected {
+      color: gold; /* Bintang yang dipilih */
+    }
+    
+    .current-rating {
+      font-size: 18px;
+      margin-right: 10px;
+      color: #d48700;
+      margin-top: 5px;
+    }
+    
+  
+  /* Order Button */
+  .order-btn {
+    background-color: #d48700;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  
+  .order-btn:hover {
+    background-color: rgb(173, 113, 2);
+  }
