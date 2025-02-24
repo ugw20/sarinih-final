@@ -11,6 +11,7 @@
 <body>
   <!-- Memanggil navbar -->
   <?php include __DIR__ . "/layout/navbar.html"; ?>
+  
 
   <!-- Top Section -->
   <div class="top">
